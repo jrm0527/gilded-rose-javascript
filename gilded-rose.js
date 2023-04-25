@@ -30,7 +30,6 @@ export class Standard extends Item {
     this.sellIn--;
     if (this.sellIn < 0) this.quality -= 2;
     else this.quality--;
-    if (this.quality > 50) this.quality = 50;
     if (this.quality < 0) this.quality = 0;
   }
 }
